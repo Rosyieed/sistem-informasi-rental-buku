@@ -1,0 +1,58 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.main {
+    height: auto;
+    background: #F5F5F5;
+}
+
+
+.sidebar {
+    background: #fff;
+}
+
+.sidebar a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 20px 10px;
+}
+
+.sidebar a:hover {
+    background: #DBDBDB;
+}
+
+.active {
+    background: #DBDBDB;
+}
+
+.card-data{
+    border: solid 1px;
+    padding: 20px 50px;
+    color: white;
+}
+
+.card-data.book{
+    background-color: teal;
+}
+
+.card-data.category{
+    background-color: orange;
+}
+
+.card-data.user{
+    background-color: rgb(140, 58, 255);
+}
+
+.card-data i{
+    font-size: 80px;
+}
+
+.card-desc{
+    font-size: 30px;
+}
+
+.card-count{
+    font-size: 30px;
+}
